@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+} 
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Estilos generales */
+
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Estilos del header */
+
+header {
+    background: #1f1f1f;
+    padding: 10px 50px; /* Padding de arriba-abajo y derecha-izquierda */
+}
+
+#Logo {
+    width: 50px;
+}
+
+#Logo img {
+    border-radius: 100%;
+    border: 2px solid #fff;
+}
+
+/* Estilos del hero */
+
+#hero {
+    position: relative;
+}
+
+#hero #Computadora {
+    display: inline-block;
+    width: 100%;
+}
+
+#hero .informacion-contenedor {
+    position: absolute; /* Puso encima de todo a este contenedor */
+    top: 0; /* Arranca desde el pixel 0 de arriba */
+    left: 0;
+    
+}
+ 
+#hero .informacion-contenedor #foto {
+    width: 200px;
+}
+
+#hero .informacion-contenedor #foto img {
+    border-radius: 100%;
+}
+
+
