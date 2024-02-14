@@ -78,6 +78,14 @@ header {
 /* Estilos del main */
 main {
     padding: 100px;
+    text-align: center;
+}
+
+main p {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 
 main .social-icons {
@@ -103,18 +111,6 @@ main .social-icons .social-icon {
 
 main .social-icons #Linkedin {
 background: #0077b0;
-}
-
-main .social-icons #Platzi {
-    background: #121f3d;
-}
-
-main .social-icons #YouTube {
-    background: #f70000;
-}
-
-main .social-icons #Twitter {
-    background: #1da1f2;
 }
 
 main .social-icons #GitHub {
